@@ -1,0 +1,3 @@
+home page on mobile device
+    https://www.suncorp.com.au  375x667
+        check webTest.gspec --include "iphone6"
