@@ -16,13 +16,3 @@
             above sunheader 120px
         insurance_box, banking_box:
             aligned horizontally all superannuation_box
-
-
-    @on iphone6
-        sunheader:
-                height 37px
-                text is "Welcome to Suncorp"
-        sunlogo:
-            above sunheader 30px
-        insurance_box, banking_box:
-            aligned vertically all superannuation_box

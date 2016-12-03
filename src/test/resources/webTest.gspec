@@ -1,0 +1,28 @@
+@objects
+sunheader	xpath	/html/body/div[5]/div[2]/h1
+sunlogo	xpath	/html/body/div[5]/div[1]/div[1]
+insurance_box	xpath	/html/body/div[5]/div[3]/div/div[1]
+banking_box	xpath	/html/body/div[5]/div[3]/div/div[2]
+superannuation_box	xpath	/html/body/div[5]/div[3]/div/div[3]
+
+
+= Main section =
+
+@on desktop
+sunheader:
+height 50px
+text is "Welcome to Suncorp"
+sunlogo:
+above sunheader 120px
+insurance_box, banking_box:
+aligned horizontally all superannuation_box
+
+
+@on iphone6
+sunheader:
+height 37px
+text is "Welcome to Suncorp"
+sunlogo:
+above sunheader 30px
+insurance_box, banking_box:
+aligned vertically all superannuation_box
